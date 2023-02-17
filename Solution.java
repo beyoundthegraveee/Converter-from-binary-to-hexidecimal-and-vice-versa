@@ -11,9 +11,9 @@ public class Solution {
 
     public static void main(String[] args) {
         String binaryNumber = "100111010000";
-        System.out.println("Двоичное число " + binaryNumber + " равно шестнадцатеричному числу " + toHex(binaryNumber));
+        System.out.println("Binary number: " + binaryNumber + " = Hexadecimal  number: " + toHex(binaryNumber));
         String hexNumber = "9d0";
-        System.out.println("Шестнадцатеричное число " + hexNumber + " равно двоичному числу " + toBinary(hexNumber));
+        System.out.println("Hexadecimal  number: " + hexNumber + " = Binary number: " + toBinary(hexNumber));
     }
 
     public static String toHex(String binaryNumber) {
